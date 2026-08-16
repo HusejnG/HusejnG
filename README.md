@@ -11,11 +11,14 @@ Software engineering graduate (Polytechnic Faculty, University of Zenica) focuse
 
 Pinned projects
 
-automotive-ecu-simulator A simulated automotive ECU network: a virtual CAN bus, a Battery Management System modeled as an AUTOSAR-style software component, UDS diagnostic services, and a fault-injection layer to verify fail-safe behavior. (In active development — see the README roadmap for progress.)
+automotive-ecu-simulator 
+A simulated automotive ECU network: a virtual CAN bus, a Battery Management System modeled as an AUTOSAR-style software component, UDS diagnostic services, and a fault-injection layer to verify fail-safe behavior. (In active development — see the README roadmap for progress.)
 
-concurrent-queue-benchmark A multi-producer/multi-consumer benchmark comparing a mutex-based queue (std::mutex + std::condition_variable) against a lock-free MPMC ring buffer (std::atomic), with real throughput measurements and full unit test coverage.
+concurrent-queue-benchmark 
+A multi-producer/multi-consumer benchmark comparing a mutex-based queue (std::mutex + std::condition_variable) against a lock-free MPMC ring buffer (std::atomic), with real throughput measurements and full unit test coverage.
 
-bit-protocol-parser A bit-level codec for packing/unpacking arbitrary bit-width fields into byte buffers, matching how real CAN/UDS signals are defined (start bit, length, signedness, scale/offset to physical units). Built to plug directly into automotive-ecu-simulator's frame encoding.
+bit-protocol-parser 
+A bit-level codec for packing/unpacking arbitrary bit-width fields into byte buffers, matching how real CAN/UDS signals are defined (start bit, length, signedness, scale/offset to physical units). Built to plug directly into automotive-ecu-simulator's frame encoding.
 
 Tech I work with
 
